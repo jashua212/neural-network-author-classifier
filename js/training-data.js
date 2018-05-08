@@ -4,7 +4,7 @@ const trainingData = [
         input: "So true, thank you!",
         output: { trump: 1 }
     },{
-        input: "Inside Chi's nursery", 
+        input: "Inside Chi's nursery",
         output: { kardashian: 1 }
     },{
         input: "Why I dyed my hair pink",

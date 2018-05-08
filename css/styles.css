@@ -5,3 +5,13 @@ body {
     padding: 50px 75px;
 }
 
+.tweet {
+	font-family: Lato, sans-serif;
+	vertical-align: middle;
+	width: 400px;
+	word-break: break-word;
+}
+
+.run {
+	margin-left: 15px;
+}
