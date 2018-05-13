@@ -6,7 +6,8 @@ body {
 }
 
 .tweet {
-	font-family: Lato, sans-serif;
+	font-family: lato, sans-serif;
+	resize: vertical;
 	vertical-align: middle;
 	width: 400px;
 	word-break: break-word;
