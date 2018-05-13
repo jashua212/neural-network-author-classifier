@@ -43,7 +43,10 @@ function execute(tweet) {
         certainty = Math.floor(results.kardashian * 100);
     }
 
-    return "I'm " + certainty + "% sure that the tweet was written by " + output;
+	console.log(typeof certainty, certainty);
+	certainty = certainty ? certainty + '%' : 'not';
+
+    return "I'm " + certainty + " sure that the tweet was written by " + output;
 }
 
 let tweetInp = document.querySelector('.tweet');
